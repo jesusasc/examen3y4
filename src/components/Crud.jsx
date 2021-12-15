@@ -189,6 +189,7 @@ function Crud(props) {
                 className="form-control mb-2"
                 value={fecha}
                 onChange={e => setFecha(e.target.value)}
+                
               />
               <button
                 type='submit'

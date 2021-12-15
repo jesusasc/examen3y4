@@ -1,3 +1,4 @@
+import './App.css';
 import React from "react";
 import { useState, useEffect } from "react";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -36,6 +37,16 @@ function App() {
             </Route>
             <Route path="/" exact>
               Ruta Pagina Principal
+              <div className='contenedor'>
+                <p>
+                  Hola
+                </p>
+                <ul>
+                  <li>ESTE ES LA PAGINA</li>
+                  <li>PRINCIPAL</li>
+                  <li>INICIE SESION</li>
+                </ul>
+              </div>
             </Route>
           </Switch>
         </div>
